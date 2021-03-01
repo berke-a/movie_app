@@ -5,7 +5,8 @@ class Movie {
   final String poster;
   final double imdbRating;
   final String type;
+  final int id;
 
   Movie(this.title, this.year, this.plot, this.poster, this.imdbRating,
-      this.type);
+      this.type, this.id);
 }
